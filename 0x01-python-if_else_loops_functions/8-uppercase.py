@@ -6,7 +6,8 @@ def uppercase(str):
     for char in str:
         # loops through the alphabets
         if char in alp:
-            uniChar = ord(char) # returns the unicode value of the character
+            # returns the unicode value of the character
+            uniChar = ord(char)
             charValue = uniChar - 32
             output = output+chr(charValue)
         else:
