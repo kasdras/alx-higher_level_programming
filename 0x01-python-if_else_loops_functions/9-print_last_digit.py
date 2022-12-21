@@ -7,3 +7,4 @@ def print_last_digit(number):
         print("{}".format(rem), sep="", end="")
     else:
         print("{}".format(rem), sep="", end="")
+    return rem
