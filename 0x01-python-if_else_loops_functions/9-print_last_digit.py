@@ -4,6 +4,6 @@ def print_last_digit(number):
     if number < 0:
         number = number * -1
         rem = number % 10
-        print("-{}".format(rem), sep="", end="")
+        print("{}".format(rem), sep="", end="")
     else:
         print("{}".format(rem), sep="", end="")
