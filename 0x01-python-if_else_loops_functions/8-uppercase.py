@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def uppercase(str):
     alp = 'abcdefghijklmnopqrstuvwxyz'
+    output = ""
     # loops through the parameter str
     for char in str:
         # loops through the alphabets
