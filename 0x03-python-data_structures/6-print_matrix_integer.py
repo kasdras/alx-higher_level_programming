@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def print_matrix_integer(matrix[[]]):
+def print_matrix_integer(matrix=[[]]):
     length = len(matrix)
     i = 0
     while i < length:
@@ -8,6 +8,7 @@ def print_matrix_integer(matrix[[]]):
             if j != len(matrix[i]) - 1:
                 print("{}".format(matrix[i][j]), end=' ')
             else:
-                print("{}".format(matrix[i][j]))
+                print("{}$".format(matrix[i][j]))
             j += 1
         i += 1
+    print('{:10s}'.format("$"))
